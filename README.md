@@ -18,6 +18,7 @@ fisher rcoedo/utils-fish
 | `__reload_config`              | Evaluates the fish config file again.                      |
 | `__add_to_path <string>`       | Appends the first parameter to $PATH.                      |
 | `__hostname`                   | Returns the hostname without the '.local' substring        |
+| `__iam <string>`               | Tests if `__hostname` equals the first parameter           |
 | `__user_host`                  | Prints $USER@(__hostname)                                  |
 
 ## Credits
