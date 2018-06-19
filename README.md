@@ -20,7 +20,6 @@ fisher rcoedo/utils-fish
 | `__hostname`                   | Returns the hostname without the '.local' substring        |
 | `__iam <string>`               | Tests if `__hostname` equals the first parameter           |
 | `__user_host`                  | Prints $USER@(__hostname)                                  |
-| `__auto_ls`                    | Enables `ls` on PWD change                                 |
 
 ## Credits
 
